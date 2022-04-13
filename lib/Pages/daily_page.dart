@@ -142,7 +142,7 @@ class _DailyPageState extends State<DailyPage> {
 
 
 
-      //amount regex //updated
+      //amount regex
       var amountReg = RegExp(r'(?<=amount *:?)(.*)(?=sar)');
       //var amountReg = RegExp(r'(?<=amount *:?)(.*)(?=sar)');
       var amountBeforeMatch = amountReg.firstMatch(message2);
